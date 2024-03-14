@@ -18,6 +18,7 @@
 * 12/29/2014
 */
 
+
 /* Table of contents
 ––––––––––––––––––––––––––––––––––––––––––––––––––
 
@@ -25,6 +26,7 @@
 - Brand Styles
 
 */
+
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -46,7 +48,6 @@ button {
   outline: none;
   border-radius: 8px;
   cursor: pointer;
-  
 }     
 button:hover,
 .button:focus {
@@ -64,6 +65,7 @@ button:hover,
   filter: brightness(90%);
 }
 
+
 /* Brand Icons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -76,6 +78,64 @@ button:hover,
 
 /* Brand Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Seth */
+.button.button-seth {
+  color: #000000;
+  background-image: linear-gradient(65deg, #E8E7FF, #C0DFFF, #9fccff, #B8F5EE);
+  border: 1px solid #000000;
+}
+.button.button-seth:hover,
+.button.button-seth:focus {
+  filter: brightness(90%);
+}
+
+/* LottieToGIF */
+.button.button-lottietogif {
+  color: #000000;
+  background-color: #FFC900;
+}
+.button.button-lottietogif:hover,
+.button.button-lottietogif:focus {
+  filter: brightness(90%);
+}
+
+/* Vercel */
+.button.button-vercel {
+  color: #FFFFFF;
+  background-color: #0070f3 }
+.button.button-vercel:hover,
+.button.button-vercel:focus {
+  filter: brightness(90%) }
+
+/* Netlify */
+.button.button-netlify {
+  color: #FFFFFF;
+  background-color: #2E51ED }
+.button.button-netlify:hover,
+.button.button-netlify:focus {
+  filter: brightness(90%) }
+
+/* Amplify */
+.button.button-amplify {
+  color: #FFFFFF;
+  background-color: #1c2735;
+  border: 1px solid #ffffff; }
+.button.button-amplify:hover,
+.button.button-amplify:focus {
+  filter: brightness(90%) }
+
+/* BrandFetch */
+.button.button-brandfetch {
+  color: #000000;
+  background-color: #FFFFFF;
+  border: 1px solid #212121;
+}
+.button.button-brandfetch:hover,
+.button.button-brandfetch:focus {
+  filter: brightness(90%);
+}
+
 
 /* Default (this is great for your own brand color!) */
 .button.button-default {
@@ -465,6 +525,17 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Google Podcasts */
+.button.button-google-podcasts {
+  color: #000000;
+  background-color: #FFFFFF;
+  border: 1px solid #212121;
+}
+.button.button-google-podcasts:hover,
+.button.button-google-podcasts:focus {
+  filter: brightness(90%);
+}
+
 /* Google Scholar */
 .button.button-google-scholar {
   color: #000000;
@@ -525,6 +596,7 @@ button:hover,
 .button.button-kick-alt:hover {
   filter: brightness(90%);
 }
+
 
 /* Kickstarter */
 .button.button-kickstarter {
@@ -731,8 +803,8 @@ button:hover,
   background-color: #ffffff;
   border: 1px solid #212121;
 }
-.button.button-producthunt:hover,
-.button.button-producthunt:focus {
+.button.button-product-hunt:hover,
+.button.button-product-hunt:focus {
   filter: brightness(90%);
 }
 
@@ -830,6 +902,7 @@ button:hover,
 .button.button-slack:focus {
   filter: brightness(90%);
 }
+
 
 /* Snapchat */
 .button.button-snapchat {
@@ -1014,6 +1087,16 @@ button:hover,
 }
 .button.button-twitch:hover,
 .button.button-twitch:focus {
+  filter: brightness(90%);
+}
+
+/* Twitter (archiving soon, see 'X') */
+.button.button-twit {
+  color: #ffffff;
+  background-color: #1da1f2;
+}
+.button.button-twit:hover,
+.button.button-twit:focus {
   filter: brightness(90%);
 }
 
